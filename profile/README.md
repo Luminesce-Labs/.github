@@ -104,14 +104,13 @@ Open to:
 ---
 
 *All framework specifications are open for academic citation and review. Implementation repositories being released progressively. Patent-protected components remain private during filing process.*
-```
 
 ---
 
 ## 📄 Licensing
 
 All Luminesce Labs frameworks use a dual-licensing model:
-- ✅ Free for academic research and education
-- 💰 Commercial licensing required for business use
+- Free for academic research and education
+- Commercial licensing required for business use
 
 **[View full license terms →](https://github.com/luminesce-labs/.github/blob/main/LICENSE.md)**
