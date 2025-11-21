@@ -108,15 +108,10 @@ Open to:
 
 ---
 
-## **Optional: Repository Structure Suggestion**
+## 📄 Licensing
 
-If you're creating individual repos, consider this organization:
-```
-luminesce-labs/
-├── c4-framework/          (Cognitive Quad specs, examples)
-├── asil-m/                (ASIL-M specifications, formal proofs)
-├── ebdp-efi/              (Entropy frameworks, case studies)
-├── coprime-security/      (Security architecture patterns)
-├── axoden-docs/           (Public documentation only)
-├── cyberintelx-public/    (Architecture overview, no proprietary code)
-└── research-papers/       (LaTeX sources for Zenodo publications)
+All Luminesce Labs frameworks use a dual-licensing model:
+- ✅ Free for academic research and education
+- 💰 Commercial licensing required for business use
+
+**[View full license terms →](https://github.com/luminesce-labs/.github/blob/main/LICENSE.md)**
