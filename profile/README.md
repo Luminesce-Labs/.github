@@ -40,11 +40,6 @@ Formal approach eliminating correlation risks in security systems through mathem
 ## Active Development
 
 ### AxoDen
-Multi-agent AI orchestration platform featuring:
-- 45+ specialized agents with domain expertise
-- Proprietary A2A (Agent-to-Agent) coordination protocols
-- Methodology intelligence across 857+ frameworks
-- Patent-pending architecture
 
 **Repository**: Private during patent process | Documentation forthcoming
 
@@ -74,7 +69,7 @@ Our frameworks prioritize:
 - **Primary publications**: [Zenodo collection](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Yalcinkaya%2C%20Erkan%22)
 - **Framework updates**: Published via Zenodo as specifications evolve
 - **Implementation examples**: Released progressively in this organization
-- **Book**: [In the Labyrinth of a Curious Mind](https://doi.org/10.5281/zenodo.17507073) - Full text on Zenodo, available on Amazon
+- **Book**: [In the Labyrinth of a Curious Mind](https://doi.org/10.5281/zenodo.17507073) - Full text on Zenodo, available on Amazon (paperback & kindle)
 
 ## Collaboration
 
@@ -84,7 +79,9 @@ Open to:
 - Industrial pilot deployments
 - Standards body engagement
 
-**Contact**: [Your preferred contact method - could be email, LinkedIn, or GitHub discussions]
+**Contact**:
+
+contact@luminescelimited.com
 
 ---
 
@@ -93,7 +90,7 @@ Open to:
 **Founder**: Erkan Yalcinkaya, MEng Physics  
 **Company**: Luminesce Limited (UK)  
 **Focus**: Formal methods for AI safety, security architecture, cognitive systems  
-**Background**: 25+ years enterprise IT, M&A integration/separation, safety-critical systems
+**Background**: 25+ years enterprise IT, system architecture, integration/separation, safety-critical systems
 
 ---
 
