@@ -33,13 +33,23 @@ It has been system-verified against two critical threat classes:
 
 The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.
 
-1. The Cognitive Quad (C4) Framework [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17680541.svg)](https://doi.org/10.5281/zenodo.17680541)
-2. The Cognitive Quad (C4) Formal Mathematical Specification [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17507517.svg)](https://doi.org/10.5281/zenodo.17507517)     .17507517.
-3. ASIL-M: AI Safety Integrity Level [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17574019.svg)](https://doi.org/10.5281/zenodo.17574019)
-4. EBDP+EFI: Entropy-Bounded Data Pipelines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17591298.svg)](https://doi.org/10.5281/zenodo.17591298)
-5. Coprime-Factor Security Architecture [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17690358.svg)](https://doi.org/10.5281/zenodo.17690358)
-6. Entropy-Frugal Intelligence: A Conjecture on Physically-Bounded Cognition in Machine Systems [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17506920.svg)](https://doi.org/10.5281/zenodo.17506920)
+1. The Cognitive Quad (C4) Framework  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17680541-blue)](https://doi.org/10.5281/zenodo.17680541)
 
+2. The Cognitive Quad (C4) Formal Mathematical Specification  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17507517-blue)](https://doi.org/10.5281/zenodo.17507517)
+
+3. ASIL-M: AI Safety Integrity Level  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17574019-blue)](https://doi.org/10.5281/zenodo.17574019)
+
+4. EBDP+EFI: Entropy-Bounded Data Pipelines  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17591298-blue)](https://doi.org/10.5281/zenodo.17591298)
+
+5. Coprime-Factor Security Architecture  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17690358-blue)](https://doi.org/10.5281/zenodo.17690358)
+
+6. Entropy-Frugal Intelligence: A Conjecture on Physically-Bounded Cognition in Machine Systems  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17506920-blue)](https://doi.org/10.5281/zenodo.17506920)
 
 **Status:** Published specification | Integration patterns under development
 
