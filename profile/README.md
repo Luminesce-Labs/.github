@@ -33,20 +33,14 @@ It has been system-verified against two critical threat classes:
 
 The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.
 
-### 🧠 [The Cognitive Quad (C4) Framework](https://doi.org/10.5281/zenodo.17507501)
-Computational model of human cognition across four operational modes (Analytical, Intuitive, Reflective, Associative). Provides formal compositional properties for understanding cognitive processing and decision-making.
-**Status:** Published specification | Active development on implementation tooling
+1. The Cognitive Quad (C4) Framework [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17680541.svg)](https://doi.org/10.5281/zenodo.17680541)
+2. The Cognitive Quad (C4) Formal Mathematical Specification [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17507517.svg)](https://doi.org/10.5281/zenodo.17507517)     .17507517.
+3. ASIL-M: AI Safety Integrity Level [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17574019.svg)](https://doi.org/10.5281/zenodo.17574019)
+4. EBDP+EFI: Entropy-Bounded Data Pipelines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17591298.svg)](https://doi.org/10.5281/zenodo.17591298)
+5. Coprime-Factor Security Architecture [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17690358.svg)](https://doi.org/10.5281/zenodo.17690358)
+6. Entropy-Frugal Intelligence: A Conjecture on Physically-Bounded Cognition in Machine Systems [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17506920.svg)](https://doi.org/10.5281/zenodo.17506920)
 
-### 🔒 [ASIL-M: AI Safety Integrity Level](https://doi.org/10.5281/zenodo.17574019)
-Multi-root trust architecture providing mathematically independent assurance paths for AI systems in safety-critical applications. Addresses single-point-of-failure risks in conventional safety frameworks through coprime factorization.
-**Status:** Published specification | Formal verification tooling in development
 
-### 📊 [EBDP+EFI: Entropy-Bounded Data Pipelines](https://doi.org/10.5281/zenodo.17591298)
-Framework for quantitative AI assurance through thermodynamic constraints. Establishes information-theoretic guarantees while providing resource efficiency metrics for industrial AI systems.
-**Status:** Published framework | Industrial case studies in progress
-
-### 🛡️ [Coprime-Factor Security Architecture](https://doi.org/10.5281/zenodo.17513366)
-Formal approach eliminating correlation risks in security systems through mathematical independence constraints. Uses coprime factorization to ensure security components cannot share vulnerabilities through common factors.
 **Status:** Published specification | Integration patterns under development
 
 ---
