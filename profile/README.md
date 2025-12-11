@@ -10,6 +10,8 @@ A Luminesce Limited Research Project: AI safety assurance, Certified AI, securit
 A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning.
 *Erkan Yalcinkaya, Luminesce Limited (UK)*
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
+
 ---
 
 ## Active Deployment & TRL-8 Verification
@@ -37,8 +39,8 @@ View Live Telemetry & Flight Deck Includes: Real-time Entropy Gauge, Semantic 5-
 The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.
 
 1. AxoDen Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning
+
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
-**Status:** Published specification | **Reference Architecture: TRL-8**
 
 3. The Cognitive Quad (C4) Framework  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17680541-blue)](https://doi.org/10.5281/zenodo.17680541)
