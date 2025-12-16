@@ -109,8 +109,8 @@ Our frameworks prioritize:
 
 ## Collaboration
 
-Open to:
-- **Mission Partnerships** (Government/Defense)
+**Open to:**
+- Mission Partnerships (Government/Defense)
 - Academic Research Partnerships
 - Industrial Pilot Deployments
 
