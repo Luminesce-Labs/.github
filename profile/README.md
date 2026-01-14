@@ -74,21 +74,19 @@ The Thermodynamics of Agency: Why Unbounded Intelligence Fails and How Architect
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18146418-blue)](https://doi.org/10.5281/zenodo.18146418)
 
 ---
-AxoDen-K: A Deterministic Architecture for Safety-Critical Cyber Defense
+AxoDen-K: A Deterministic Architecture for Safety-Critical Cyber Defense  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17989744-blue)](https://doi.org/10.5281/zenodo.17989744)
 
-AxoDen-A Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning
+AxoDen-A Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
 
-AxoDen-R: Execution-Path Assurance for Ransomware Containment
+AxoDen-R: Execution-Path Assurance for Ransomware Containment  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18212915-blue)](https://doi.org/10.5281/zenodo.18212915)
 
-AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention
+AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18000738-blue)](https://doi.org/10.5281/zenodo.18000738)
 
-**AxoDen-Q: Hybrid Quantum–Classical AI Safety**
-
-A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety
+A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18213048-blue)](https://doi.org/10.5281/zenodo.18213048)
 
 ---
