@@ -31,13 +31,13 @@ The AxoDen Safety Kernel is a production-grade safety middleware enforcing infor
 The system is currently Flight Qualified against the following critical failure modes:
 
 **1. Agentic Hallucination (EFI)**  
-Deterministic rejection of ontological fabrication ("Twin-Liar" paradoxes). The kernel enforces a calibrated entropy surplus limit of 0.8 bits, preventing model collapse in closed decision loops.
+Deterministic rejection of ontological fabrication ("Twin-Liar" paradoxes). The kernel enforces a calibrated entropy surplus limit, preventing model collapse in closed decision loops.
 
 **2. Zero-Day Ransomware (EBDP)**  
-Deterministic prevention of unauthorised mass encryption and semantic data loss. The middleware detects thermodynamic vacuum conditions (entropy > 5.2831 bits) and severs the execution path in <1.5 ms, independent of malware signatures or threat intelligence.
+Deterministic prevention of unauthorised mass encryption and semantic data loss. The middleware detects thermodynamic vacuum conditions and severs the execution path in <1.5 ms, independent of malware signatures or threat intelligence.
 
 **3. Structural Monoculture (CFS)**  
-Prevention of correlated cascade failures. The Cross-Model Risk Index (CMRI) gates agent ensembles, enforcing geometric independence (1 − IS + ε) to maintain systemic resilience.
+Prevention of correlated cascade failures. The Cross-Model Risk Index (CMRI) gates agent ensembles, enforcing geometric independence to maintain systemic resilience.
 
 Operational telemetry and assurance artefacts include real-time entropy monitoring, a semantic 5-tuple event ledger, and TRL-8 calibration and qualification reports.
 
