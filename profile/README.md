@@ -11,11 +11,17 @@ Luminesce Labs develops **information-theoretic safety frameworks** that transfo
 
 ## Core Research (Proprietary)
 
-**AxoDen Unified Mathematical Backbone**
-A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning.
-*Erkan Yalcinkaya, Luminesce Limited (UK)*
+AxoDen-K: A Deterministic Architecture for Safety-Critical Cyber Defense  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17989744-blue)](https://doi.org/10.5281/zenodo.17989744)
 
+AxoDen-A Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
+
+AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18000738-blue)](https://doi.org/10.5281/zenodo.18000738)
+
+AxoDen-Q: A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18213048-blue)](https://doi.org/10.5281/zenodo.18213048)
 
 ---
 
@@ -65,7 +71,7 @@ Ransomware resilience is treated as a sovereign capability: prevention remains e
 
 ---
 
-## Published Frameworks
+## Other Published Frameworks
 
 The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.
 *Restricted access indicates controlled dissemination due to dual-use, security sensitivity, and ongoing patent activity. Full specifications are available for review under appropriate collaboration frameworks.*
@@ -73,23 +79,9 @@ The following frameworks are published on Zenodo (Restricted) with DOI registrat
 The Thermodynamics of Agency: Why Unbounded Intelligence Fails and How Architecture Restores Control
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18146418-blue)](https://doi.org/10.5281/zenodo.18146418)
 
----
-AxoDen-K: A Deterministic Architecture for Safety-Critical Cyber Defense  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17989744-blue)](https://doi.org/10.5281/zenodo.17989744)
-
-AxoDen-A Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
-
 AxoDen-R: Execution-Path Assurance for Ransomware Containment  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18212915-blue)](https://doi.org/10.5281/zenodo.18212915)
 
-AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18000738-blue)](https://doi.org/10.5281/zenodo.18000738)
-
-A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18213048-blue)](https://doi.org/10.5281/zenodo.18213048)
-
----
 Coprime-Factor Security Architecture  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17690358-blue)](https://doi.org/10.5281/zenodo.17690358)
 
@@ -109,15 +101,6 @@ The Cognitive Quad (C4) Formal Mathematical Specification
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17507517-blue)](https://doi.org/10.5281/zenodo.17507517)
 
 ---
-
-
-
-
-
-
-
-
-
 
 ## Research Approach
 
