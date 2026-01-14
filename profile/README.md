@@ -76,7 +76,7 @@ Ransomware resilience is treated as a sovereign capability: prevention remains e
 The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.
 *Restricted access indicates controlled dissemination due to dual-use, security sensitivity, and ongoing patent activity. Full specifications are available for review under appropriate collaboration frameworks.*
 
-The Thermodynamics of Agency: Why Unbounded Intelligence Fails and How Architecture Restores Control
+The Thermodynamics of Agency: Why Unbounded Intelligence Fails and How Architecture Restores Control  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18146418-blue)](https://doi.org/10.5281/zenodo.18146418)
 
 AxoDen-R: Execution-Path Assurance for Ransomware Containment  
