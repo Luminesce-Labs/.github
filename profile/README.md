@@ -70,29 +70,56 @@ Ransomware resilience is treated as a sovereign capability: prevention remains e
 The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.
 *Restricted access indicates controlled dissemination due to dual-use, security sensitivity, and ongoing patent activity. Full specifications are available for review under appropriate collaboration frameworks.*
 
-1. AxoDen Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning
-
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
-
-2. The Cognitive Quad (C4) Framework  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17680541-blue)](https://doi.org/10.5281/zenodo.17680541)
-
-3. The Cognitive Quad (C4) Formal Mathematical Specification  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17507517-blue)](https://doi.org/10.5281/zenodo.17507517)
-
-4. ASIL-M: AI Safety Integrity Level  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17574019-blue)](https://doi.org/10.5281/zenodo.17574019)
-
-5. EBDP+EFI: Entropy-Bounded Data Pipelines  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17591298-blue)](https://doi.org/10.5281/zenodo.17591298)
-
-6. Coprime-Factor Security Architecture  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17690358-blue)](https://doi.org/10.5281/zenodo.17690358)
-
-7. Entropy-Frugal Intelligence: A Conjecture on Physically-Bounded Cognition in Machine Systems  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17506920-blue)](https://doi.org/10.5281/zenodo.17506920)
+The Thermodynamics of Agency: Why Unbounded Intelligence Fails and How Architecture Restores Control
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18146418-blue)](https://doi.org/10.5281/zenodo.18146418)
 
 ---
+AxoDen-K: A Deterministic Architecture for Safety-Critical Cyber Defense
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17989744-blue)](https://doi.org/10.5281/zenodo.17989744)
+
+AxoDen-A Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
+
+AxoDen-R: Execution-Path Assurance for Ransomware Containment
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18212915-blue)](https://doi.org/10.5281/zenodo.18212915)
+
+AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18000738-blue)](https://doi.org/10.5281/zenodo.18000738)
+
+**AxoDen-Q: Hybrid Quantum–Classical AI Safety**
+
+A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18213048-blue)](https://doi.org/10.5281/zenodo.18213048)
+
+---
+Coprime-Factor Security Architecture  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17690358-blue)](https://doi.org/10.5281/zenodo.17690358)
+
+ASIL-M: AI Safety Integrity Level  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17574019-blue)](https://doi.org/10.5281/zenodo.17574019)
+
+EBDP+EFI: Entropy-Bounded Data Pipelines  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17591298-blue)](https://doi.org/10.5281/zenodo.17591298)
+
+Entropy-Frugal Intelligence: A Conjecture on Physically-Bounded Cognition in Machine Systems  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17506920-blue)](https://doi.org/10.5281/zenodo.17506920)
+
+The Cognitive Quad (C4) Framework  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17680541-blue)](https://doi.org/10.5281/zenodo.17680541)
+
+The Cognitive Quad (C4) Formal Mathematical Specification  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17507517-blue)](https://doi.org/10.5281/zenodo.17507517)
+
+---
+
+
+
+
+
+
+
+
+
 
 ## Research Approach
 
