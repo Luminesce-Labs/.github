@@ -29,8 +29,7 @@ AxoDen-Q: A Compositional Information-Theoretic Framework for Hybrid Quantum–C
 
 🛡️ AxoDen Safety Kernel — a Semantic Firewall for autonomous and agentic systems (operationally designated as the AxoDen Entropic Firewall)
 
-**Status: TRL-8 (Flight Qualified)**  
-TRL-8 status is supported by deterministic runtime measurements, calibrated entropy thresholds, and repeatable fault-injection testing across operational environments.
+**Status: Deployment Ready**  
 
 The AxoDen Safety Kernel is a production-grade safety middleware enforcing information-theoretic constraints at runtime. It has graduated from a reference implementation to active deployment, applying a hard thermodynamic limit on all data streams. By treating information as a physical quantity, it provides deterministic protection where probabilistic guardrails fail.
 
@@ -110,9 +109,8 @@ Our frameworks prioritize:
 - **Quantitative Assurance:** Measurable safety properties (Entropy, Independence).
 - **Sovereign Capability:** Aligned with UK national security and critical infrastructure standards.
 
-## Publications & Updates
+## Other Publications
 
-- **Primary Publications:** [Zenodo Collection](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Yalcinkaya%2C%20Erkan%22)
 - **Author:** *"In The Labyrinth of a Curious Mind: Exploring the Complexities of Human Thought and Artificial Intelligence"* (Paperback, Jun 2024). **ISBN-13:** 979-8328565639
 
 ## Collaboration
