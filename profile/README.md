@@ -23,6 +23,8 @@ AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention
 AxoDen-Q: A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety  
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18213048-blue)](https://doi.org/10.5281/zenodo.18213048)
 
+AxoDen-Q: Systems & Certification Engineering, Runtime Enforcement, and Assurance for Hybrid Quantum–Classical AI Safety
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18282922-blue)](https://doi.org/10.5281/zenodo.18282922)
 ---
 
 ## Active Deployment & TRL-8 Verification
