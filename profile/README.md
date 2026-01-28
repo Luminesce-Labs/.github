@@ -2,7 +2,8 @@
 
 **Transparency starts where opacity ends.**
 
- A Luminesce Limited research project for **deterministic AI assurance and security**: safety-oriented architectures, security middleware, and agentic cybersecurity systems with mathematical and physical foundations intended for industrial deployment.
+Luminesce Labs is a research programme by Luminesce Limited (UK) focused on deterministic AI assurance and security.
+The work develops safety-oriented architectures, inline security middleware, and agentic cyber-defence systems grounded in information theory, formal methods, and physical constraints, designed for industrial and regulated deployment.
 
 ---
 
