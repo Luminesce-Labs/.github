@@ -2,174 +2,120 @@
 
 **Transparency starts where opacity ends.**
 
-Luminesce Labs is a research programme by Luminesce Limited (UK) focused on deterministic AI assurance and security.
-The work develops safety-oriented architectures, inline security middleware, and agentic cyber-defence systems grounded in information theory, formal methods, and physical constraints, designed for industrial and regulated deployment.
+Luminesce Labs is a research programme by **Luminesce Limited (UK)** focused on **deterministic AI assurance and security**: architectures and middleware that turn “AI safety” from policy and heuristics into **runtime-enforceable constraints**, with **audit-grade evidence** for regulated and safety-critical deployment.  
+(Primary body of work: **AxoDen**.) 
 
 ---
 
 ## Why Luminesce Labs Exists
 
-Modern AI and autonomous systems fail not only due to capability gaps, but because they lack **enforceable operational boundaries**.  
-Luminesce Labs develops **information-theoretic and formal safety frameworks** that transform AI safety from policy and heuristics into **measurable, enforceable system constraints** suitable for regulated and high-consequence environments (including defence and critical infrastructure).
+Modern AI and autonomous systems fail in predictable ways that “better prompts” and post-hoc review cannot reliably fix:
+
+- **Unbounded uncertainty propagation** across pipelines (noise accumulates until the system is no longer verifiable).   
+- **Fabrication / hallucination risk** when model influence exceeds what evidence can support.   
+- **Common-mode failures** (monocultures) where “redundant” components fail together because they share roots and dependencies.   
+- **Safety hazards in audit + actuation loops** (e.g., stale intent after reboot). :contentReference[oaicite:5]{index=5}  
+
+Luminesce Labs develops **contract-first** safety mechanisms that **degrade safely**, remain **replayable**, and produce **evidence artifacts** a third party can verify. 
+
+---
 
 ## What You’ll Find Here
 
-- **Deployable middleware:** AxoDen Safety Kernel / **Semantic Firewall Architecture (SFA)** for inline, pre-triage enforcement in security pipelines.
-- **Applied platform:** **Agentic SOC automation** (A2A-coordinated) for threat detection, triage, reporting, and controlled threat hunting.
-- **Published specifications:** Zenodo DOIs for AxoDen components (some restricted due to dual-use sensitivity and ongoing patent activity).
+### 1) AxoDen Kernel-aligned runtime assurance (Implemented / Canonical)
+A compositional framework and control plane for deterministic assurance:
 
-### What this repository is not
-- Not a model benchmark project.
-- Not a “prompting” toolkit.
-- Not a claim of perfect detection. The focus is **control, auditability, bounded operation, and safe degradation**.
+- **EBDP — Entropy-Bounded Data Pipelines** *(Academic-DOI / Canonical)*: stage + global entropy bounds for pipeline uncertainty control.   
+- **EFI — Entropy-Frugal Intelligence** *(Academic-DOI / Canonical)*: bounds model influence; detects “surplus” beyond evidence support.   
+- **CFS — CoPrime Factor Security** *(Academic-DOI / Canonical)*: engineered independence across roots (models, vendors, toolchains, pipelines).   
+- **ASIL-M — AI Safety Integrity Level (Multi-Root Trust)** *(Academic-DOI / Canonical)*: multi-root attestation + correlation-bounded trust gating.   
+- **MQ + ARV + VSR loop** *(Implemented, kernel contract)*:
+  - **MQ (Monitoring Quad)**: runtime evidence/consistency/novelty/independence telemetry.   
+  - **ARV (Admission Resilience Validator)**: deterministic enforcement actions **EXECUTE | THROTTLE | ROLLBACK | HALT | RESET**.   
+  - **VSR states**: **NOMINAL | DEGRADED | SAFE_MODE | HALT**.   
 
----
-
-## Core Research (Proprietary)
-
-AxoDen-A Unified Mathematical Backbone: A Compositional Theory of Entropy-Bounded Pipelines, Cognitive Coherence, Engineered Independence, and Verified AI Reasoning  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17902707-blue)](https://doi.org/10.5281/zenodo.17902707)
-
-AxoDen-K: A Deterministic Architecture for Safety-Critical Cyber Defense  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17989744-blue)](https://doi.org/10.5281/zenodo.17989744)
-
-AxoDen-R: Deterministic Inline Control for Certifiable Ransomware Prevention  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18000738-blue)](https://doi.org/10.5281/zenodo.18000738)
-
-AxoDen-Q: A Compositional Information-Theoretic Framework for Hybrid Quantum–Classical AI Safety  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18213048-blue)](https://doi.org/10.5281/zenodo.18213048)
-
-AxoDen-Q: Systems & Certification Engineering, Runtime Enforcement, and Assurance for Hybrid Quantum–Classical AI Safety  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18282922-blue)](https://doi.org/10.5281/zenodo.18282922)
+### 2) Applied wedges (domain deployments)
+- **Cyber defense / ransomware containment** *(Academic-DOI + scenario-qualified implementation posture)*.   
+- **Spectrum Bridge (RF → AI Evidence Boundary Layer)** *(Academic-DOI / Patent posture noted)*: deterministic RF evidence formation + envelope-honest degradation.   
+- **Micro-Grid Safety / Grid Flight Recorder** *(Academic-DOI / procurement-ready spec posture)*: deterministic actuation gating, session-bound intent, replay packs, and explicit handling of “Zombie Intent” hazards.   
 
 ---
 
-## Deployment-Ready Components (Scenario-Qualified)
+## What this repository is not
 
-### AxoDen Safety Kernel (Semantic Firewall Architecture — SFA)
-
-**Status: Deployment-ready safety middleware**
-
-The AxoDen Safety Kernel is a production-grade middleware layer that enforces **calibrated information-quality constraints** at runtime. It is designed to operate **inside the execution/decision path** (inline, pre-triage), applying deterministic admission, downgrade, isolation, or halt semantics when verifiability limits are exceeded.
-
-This is not post-hoc filtering. The kernel is intended to prevent unsafe propagation into downstream triage and reporting.
-
-#### Scenario-driven qualification focus
-
-**1) Hallucination-risk suppression (EFI)**  
-Evidence-bounded gating that suppresses fabrication risk by enforcing calibrated surplus/grounding predicates and fail-closed behaviour in closed decision loops.
-
-**2) Ransomware-style execution threats (EBDP / execution-path control)**  
-Pre-triage containment by detecting high-entropy irreversible transformations consistent with mass encryption and semantic loss, then enforcing deterministic interruption within calibrated latency bounds.
-
-**3) Correlated failure / monoculture risk (CFS / IS–CMRI)**  
-Independence engineering across roots (models/agents/vendors/pipelines), measuring common-mode risk and gating ensembles when correlation exceeds thresholds.
-
-#### Operational artefacts
-- Real-time entropy / quality monitoring
-- Append-only event and evidence records (provenance-first logging)
-- Scenario qualification reports (where disclosure is permissible)
+- Not a “prompting toolkit” or model benchmark repo.
+- Not a claim of perfect detection.
+- Not “trust us”: the goal is **control-by-contract**, **auditability**, and **safe degradation** when operating envelopes are exceeded.   
 
 ---
 
-## Agentic SOC Automation Platform (A2A Coordinated)
+## Reading Paths (pick one)
 
-An applied cybersecurity system implementing AxoDen patterns for AI-assisted operations:
+### If you’re evaluating the *core thesis* (15–30 mins)
+1) **AxoDen Master Reference** (what it is / isn’t; pillars; wedges). :contentReference[oaicite:18]{index=18}  
+2) **MQ + ARV consolidated controls** (control vocabulary + enforcement semantics). :contentReference[oaicite:19]{index=19}  
+3) **ASIL-M** (multi-root trust gate + CAR artifacts).   
 
-- **Threat detection and triage** with evidence-led, audit-ready outputs
-- **A2A orchestration** separating ingestion, corroboration, summarisation, and reporting roles
-- **Controlled report generation** with provenance tagging and deterministic logging
-- Interoperability-oriented outputs (structured exports where applicable)
+### If you’re technical / building
+1) **Engine Room** (canonical formula IDs + determinism rules). :contentReference[oaicite:21]{index=21}  
+2) **ER-topo.cert spec** (topological evidence certification artifact). :contentReference[oaicite:22]{index=22}  
+3) **Controls (MQ/ARV)** + your conformance profile bindings. :contentReference[oaicite:23]{index=23}  
 
-### Investigative Mode (Hypotheses-enabled threat hunting)
-
-A constrained mode that supports hypothesis-driven hunting (e.g., unseen infrastructure, plausible next-stage actions) while enforcing containment rules so **unsupported hypotheses cannot enter operational decision paths**. This allows exploratory reasoning without contaminating operational decisions.
-
----
-
-## How This Differs from Conventional AI Safety
-
-- Enforcement is **inline** (pre-triage), not post-hoc filtering.
-- Outputs are **evidence-led** and **audit-friendly** (provenance and traceability).
-- Unsafe regimes trigger deterministic actions: **reject / downgrade / isolate / verify**.
-- Designed for certification-oriented environments and controlled deployment.
+### If you’re procurement / assurance / audit
+1) **Micro-Grid Safety / Grid Flight Recorder** (evidence-or-actuate framing; replay verifier posture). :contentReference[oaicite:24]{index=24}  
+2) **Zombie Intent Hazard** (why write-ahead audit can be unsafe without session binding). :contentReference[oaicite:25]{index=25}  
+3) **ASIL-M** (multi-root trust, CAR, and independence constraints).   
 
 ---
 
-## Other Published Frameworks
+## Publications (Zenodo)
 
-The following frameworks are published on Zenodo (Restricted) with DOI registration for academic and industrial citation.  
-Restricted access indicates controlled dissemination due to dual-use sensitivity and ongoing patent activity. Full specifications are available for review under appropriate collaboration frameworks.
+> Access notes: some items are **Restricted / Controlled** due to dual-use sensitivity and patent activity; review access is available under appropriate collaboration frameworks. :contentReference[oaicite:27]{index=27}  
 
-The Thermodynamics of Agency: Why Unbounded Intelligence Fails and How Architecture Restores Control  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18146418-blue)](https://doi.org/10.5281/zenodo.18146418)
+### 2026 (latest)
+- **Information Physics for Safety-Critical AI** — Zenodo DOI: `10.5281/zenodo.18876342` :contentReference[oaicite:28]{index=28}  
+- **AxoDen Grid Flight Recorder – Micro-Grid Safety** — `10.5281/zenodo.18863456`   
+- **AxoDen Spectrum Bridge (RF–AI Bridge) (Patent)** — `10.5281/zenodo.18863188`   
+- **THE TOPOLOGY OF REASONING — Part I** — `10.5281/zenodo.18769043` :contentReference[oaicite:31]{index=31}  
+- **THE TOPOLOGY OF REASONING — Part II** — `10.5281/zenodo.18862777`   
+- **The Zombie Intent Hazard** — `10.5281/zenodo.18768569`   
+- **AxoDen Unified Mathematical Backbone** — `10.5281/zenodo.18633407` :contentReference[oaicite:34]{index=34}  
+- **Hybrid Quantum–Classical AI Safety (framework)** — `10.5281/zenodo.18213048` :contentReference[oaicite:35]{index=35}  
+- **Hybrid Quantum–Classical AI Safety (systems & certification)** — `10.5281/zenodo.18282922` :contentReference[oaicite:36]{index=36}  
 
-AxoDen-R: Execution-Path Assurance for Ransomware Containment  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18212915-blue)](https://doi.org/10.5281/zenodo.18212915)
-
-Coprime-Factor Security Architecture  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17690358-blue)](https://doi.org/10.5281/zenodo.17690358)
-
-ASIL-M: AI Safety Integrity Level  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17574019-blue)](https://doi.org/10.5281/zenodo.17574019)
-
-EBDP+EFI: Entropy-Bounded Data Pipelines  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17591298-blue)](https://doi.org/10.5281/zenodo.17591298)
-
-Entropy-Frugal Intelligence: A Conjecture on Physically-Bounded Cognition in Machine Systems  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17506920-blue)](https://doi.org/10.5281/zenodo.17506920)
-
-The Cognitive Quad (C4) Framework  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17680541-blue)](https://doi.org/10.5281/zenodo.17680541)
-
-The Cognitive Quad (C4) Formal Mathematical Specification  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17507517-blue)](https://doi.org/10.5281/zenodo.17507517)
-
----
-
-## Research Approach
-
-The work prioritises:
-- **Mathematical rigour:** formal definitions, compositional properties, and explicit constraints.
-- **Industrial applicability:** designed for real-world operating conditions and audit expectations.
-- **Quantitative assurance:** measurable properties (entropy, independence, correlation risk).
-- **Sovereign capability:** designed to remain robust when external update channels or intelligence feeds are unavailable or compromised.
-
----
-
-## Other Publications
-
-- **Author:** *In The Labyrinth of a Curious Mind: Exploring the Complexities of Human Thought and Artificial Intelligence* (Paperback, Jun 2024). **ISBN-13:** 979-8328565639
-https://www.amazon.co.uk/Labyrinth-Curious-Mind-Complexities-Intelligence/dp/B0D795DYGZ
+### 2025 (selected)
+- **Entropy-Bounded Data Pipelines & Entropy-Frugal Intelligence** — `10.5281/zenodo.17709557` :contentReference[oaicite:37]{index=37}  
+- **ASIL-M: AI Safety Integrity Level (Multi-Root Trust)** — `10.5281/zenodo.17690760`   
+- **Coprime-Factor Security Architecture** — `10.5281/zenodo.17690358`   
 
 ---
 
 ## Collaboration
 
 Open to:
-- Mission partnerships (government/defence)
+- Mission partnerships (government / defence)
 - Academic research partnerships
-- Industrial pilot deployments (security operations, regulated environments)
+- Industrial pilots (security operations, RF-AI, regulated infrastructure)
+
+If you want an evaluation pack, typical starting point is: **use-case → conformance profile → evidence artifacts expected (CAR / replay pack / certificates) → disclosure constraints**.   
 
 ---
 
 ## Contact
 
 Erkan Yalcinkaya — Principal Architect (Independent Consultant)  
-Luminesce Limited (UK) | id 15317429, VAT: 474096567
-Background: Engineering Physics; 25+ years enterprise systems architecture; data, AI assurance & security, systems integration and separation.
+Luminesce Limited (UK) • id 15317429 • VAT 474096567 :contentReference[oaicite:41]{index=41}  
 
 ---
 
 ## Licensing
 
 Luminesce Labs uses a dual-licensing model:
-- Free for academic research and education (subject to licence terms).
-- Commercial licensing required for business use.
+- Free for academic research and education (subject to licence terms)
+- Commercial licensing required for business use
 
-**View full licence terms →** https://github.com/luminesce-labs/.github/blob/main/LICENSE.md
-
-Implementation repositories are released progressively. Patent-protected components remain private during the filing process.
+Implementation repositories are released progressively; patent-protected components may remain private during filing. :contentReference[oaicite:42]{index=42}  
 
 ---
-Luminesce Limited (c) 2023 - 2026
+
+© Luminesce Limited 2023–2026
