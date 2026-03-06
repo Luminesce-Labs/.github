@@ -104,10 +104,10 @@ If you want an evaluation pack, typical starting point is: **use-case → confor
 ## Contact
 
 Erkan Yalcinkaya, Founder and Principal Systems Architect, Luminesce Limited
-Luminesce Limited (UK) • id 15317429 • VAT 474096567 :contentReference[oaicite:41]{index=41}
+Luminesce Limited (UK) • id 15317429 • VAT 474096567
 D-U-N-S® Number: 231242963
-ISNI: 0000000529733416 
-Ringgold ID: 847099  
+ISNI: 0000000529733416
+Ringgold ID: 847099
 
 ---
 
@@ -117,7 +117,7 @@ Luminesce Labs uses a dual-licensing model:
 - Free for academic research and education (subject to licence terms)
 - Commercial licensing required for business use
 
-Implementation repositories are released progressively; patent-protected components may remain private during filing. :contentReference[oaicite:42]{index=42}  
+Implementation repositories are released progressively; patent-protected components may remain private during filing.
 
 ---
 
