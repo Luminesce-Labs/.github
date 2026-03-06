@@ -103,8 +103,11 @@ If you want an evaluation pack, typical starting point is: **use-case → confor
 
 ## Contact
 
-Erkan Yalcinkaya — Principal Architect (Independent Consultant)  
-Luminesce Limited (UK) • id 15317429 • VAT 474096567 :contentReference[oaicite:41]{index=41}  
+Erkan Yalcinkaya, Founder and Principal Systems Architect, Luminesce Limited
+Luminesce Limited (UK) • id 15317429 • VAT 474096567 :contentReference[oaicite:41]{index=41}
+D-U-N-S® Number: 231242963
+ISNI: 0000000529733416 
+Ringgold ID: 847099  
 
 ---
 
