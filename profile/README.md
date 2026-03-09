@@ -3,7 +3,7 @@
 
 **Transparency starts where opacity ends.**
 
-**AxoDen** is Luminesce Labs' product line for **deterministic assurance and security middleware** — built around the **AxoDen Kernel** and delivered through domain wedge products: **Forensic Intelligence**, **Spectrum Bridge**, and **Grid Flight Recorder**.
+**AxoDen** is Luminesce Labs' product line for **deterministic assurance and security middleware**; built around the **AxoDen Kernel** and delivered through domain wedge products: **Forensic Intelligence**, **Spectrum Bridge**, and **Grid Flight Recorder**.
 
 Jump to: [AxoDen Kernel](#1-axoden-kernel) · [Wedge products](#2-wedge-products) · [Publications](#publications) · [About](#about-luminesce-limited) · [Contact](#contact)
 
