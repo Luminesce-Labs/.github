@@ -28,7 +28,7 @@ Three design principles govern every product:
 ## Portfolio overview
 
 | Product | Role | Maturity |
-|---|---|
+|---|---|---|
 | **AxoDen Kernel** | Shared control and evidence substrate | Implemented — canonical baseline v0.8.1 |
 | **Forensic Intelligence** | Deterministic forensic middleware for security operations | Operationalised — locally deployed |
 | **Spectrum Bridge** | Deterministic evidence layer between RF sensing and AI | MVP |
