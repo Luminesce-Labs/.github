@@ -1,4 +1,4 @@
-# Luminesce Labs
+# Luminesce Labs | AxoDen
 *Luminesce Limited (UK)*
 
 **Transparency starts where opacity ends.**
